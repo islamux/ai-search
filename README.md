@@ -21,6 +21,7 @@ This project provides a unified command-line interface (CLI) for interacting wit
    ./setup_ai_keys.sh
    ```
    Replace `YOUR_KEY_HERE` with your actual API keys in the opened file.
+   Note: The `ai_search.sh` script may contain a DeepSeek API key for testing purposes. It is highly recommended to replace this with your own API key, as the provided key may not be active or work for all users.
 3. **Make scripts executable:**
    ```bash
    chmod +x ai_search.sh setup_ai_keys.sh
